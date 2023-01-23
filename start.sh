@@ -1,0 +1,1 @@
+docker run --name my-node-app -p 3000:3000 -v $(pwd):/usr/src/app -v /usr/src/app/node_modules nodeapp:v3
